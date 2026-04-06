@@ -15,7 +15,7 @@ export default function MatchCard({ team1, team2, viewers, time, status }) {
         {time} • {viewers} espectadores
       </p>
 
-      <button className="mt-3 bg-[#6F95FF] px-3 py-2 rounded-lg text-sm font-semibold hover:scale-105 transition">
+      <button className="cursor-pointer mt-3 bg-[#6F95FF] px-3 py-2 rounded-lg text-sm font-semibold hover:scale-105 transition">
         Ver partido
       </button>
 
